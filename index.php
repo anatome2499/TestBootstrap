@@ -18,17 +18,19 @@
     <![endif]-->
   </head>
   <body>
-  <div class="container">
-  <h2>Button Styles</h2>
-  <button type="button" class="btn">Basic</button>
-  <button type="button" class="btn btn-default">Default</button>
-  <button type="button" class="btn btn-primary">Primary</button>
-  <button type="button" class="btn btn-success">Success</button>
-  <button type="button" class="btn btn-info">Info</button>
-  <button type="button" class="btn btn-warning">Warning</button>
-  <button type="button" class="btn btn-danger">Danger</button>
-  <button type="button" class="btn btn-link">Link</button>      
-</div>
+    <nav>
+      <h1>Main menu</h1>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About us</a></li>
+        <li><a href="/contact/">Contact us</a></li>
+      </ul>
+    </nav>
+    <article>
+      <h1>About Us</h1>
+      <p>SiamHTML เป็นเหมือนสังคมออนไลน์ของเพื่อนๆ Developer ที่จะนำประสบการณ์ ความรู้...</p>
+      <p>เพื่อนๆ ที่สนใจเขียนบทความสามารถ<a href="/contact/">ติดต่อเรา</a>ได้นะครับ<p>
+    </article>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
