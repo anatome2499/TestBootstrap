@@ -18,18 +18,18 @@
     <![endif]-->
   </head>
   <body>
-    <nav>
-      <h1>Main menu</h1>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about/">About us</a></li>
-        <li><a href="/contact/">Contact us</a></li>
-      </ul>
-    </nav>
+
     <article>
-      <h1>About Us</h1>
-      <p>SiamHTML เป็นเหมือนสังคมออนไลน์ของเพื่อนๆ Developer ที่จะนำประสบการณ์ ความรู้...</p>
-      <p>เพื่อนๆ ที่สนใจเขียนบทความสามารถ<a href="/contact/">ติดต่อเรา</a>ได้นะครับ<p>
+        <h1>About Us</h1>
+        <p>SiamHTML เป็นเหมือนสังคมออนไลน์ของเพื่อนๆ Developer ที่จะนำประสบการณ์ ความรู้...</p>
+        <section>
+            <h2>วิสัยทัศน์</h2>
+            <p>SiamHTML มุ่งมั่นที่จะเป็นแหล่งความรู้ สำหรับนักพัฒนาเว็บไซต์หน้าใหม่ ที่จะช่วยส่งเสริมให้การพัฒนาเว็บไซต์ในไทย...</p>
+        </section>
+        <section>
+            <h2>ติดต่อเรา</h2>
+            <p>SiamHTML ยินดีรับฟังความคิดเห็นจากเพื่อนๆ ทุกคน หากมีข้อแนะนำ ติชม สงสัย หรือสนใจจะเขียนบทความ...</p>
+        </section>
     </article>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
