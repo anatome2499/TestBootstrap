@@ -18,20 +18,23 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    <div class="container-fluid">
-  <h1>Grid</h1>
-  <p>This example demonstrates a 50%/50% split on small, medium and large devices. On extra small devices, it will stack (100% width).</p>      
-  <p>Resize the browser window to see the effect.</p>      
-  <div class="row">
-    <div class="col-sm-6" style="background-color:yellow;">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
     </div>
-    <div class="col-sm-6" style="background-color:pink;">
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.    
-    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </ul>
+    <button class="btn btn-danger navbar-btn">Button</button>
   </div>
+</nav>
+
+<div class="container">
+  <h2>Navbar Button</h2>
+  <p>Use the navbar-btn class on a button to vertically align (same padding as links) it inside the navbar.</p>
 </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
